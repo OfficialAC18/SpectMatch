@@ -12,6 +12,7 @@ This Repository contains the implementation of the SpectMatch adaptation of FixM
 8. scikit-learn
 9. seaborn
 10. torchvision
+11. Matplotlib
 
 # References
 [1] A. Chanchal and I. Zualkernan, “Exploring semi-supervised learning for audio-based automated classroom
