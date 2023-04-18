@@ -26,7 +26,7 @@ It is recommended that you make your changes in the classroom observation versio
 observations,” 19th International Conference on Cognition and Exploratory Learning in Digital Age (CELDA),
 Nov. 2022. [Online]. Available: https://www.celda-conf.org/wp-content/uploads/2022/11/3_CELDA2022_F_184.pdf.
 
-[2]
+[2] (Publication under review)
 
 # Referenced Repositories
 https://github.com/kekmodel/FixMatch-pytorch
