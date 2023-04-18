@@ -14,6 +14,13 @@ This Repository contains the implementation of the SpectMatch adaptation of FixM
 10. torchvision
 11. Matplotlib
 
+# How to run repo
+Running AST for classroom observation for 1650 examples labeled
+````
+python train.py --dataset classaudio_AST --num-labeled 1650 --arch ast --amp --batch-size 2 --lr 0.001 --eval-step 1 --total-steps 1 --expand-labels --use-ema --seed 5 --threshold 0.95 --num-workers 4 --out  results/classaudio_AST@1650.5/log
+
+````
+
 # References
 [1] A. Chanchal and I. Zualkernan, “Exploring semi-supervised learning for audio-based automated classroom
 observations,” 19th International Conference on Cognition and Exploratory Learning in Digital Age (CELDA),
