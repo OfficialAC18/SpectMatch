@@ -283,7 +283,7 @@ def main():
     if args.local_rank not in [-1, 0]:
         torch.distributed.barrier()
 
-    if(args.dataset != 'classaudio' and args.dataset != 'classaudio_2' and args.dataset != 'classaudio_spectrogram' and args.dataset != 'classaudio_AST' and args.dataset != 'classaudio_3_channels' and args.dataset != 'classaudio_AudioMAE' and args.dataset != 'remasc_spectrogram' and args.dataset != 'remasc_AST' and args.dataset != 'remasc_3_channels'):
+    if(args.dataset not in ['classaudio','classaudio_2','classaudio_spectrogram','classaudio_AST','classaudio_3_channels','classaudio_AudioMAE','remasc_spectrogram','remasc_AST','remasc_3_channels']):
         labeled_dataset, unlabeled_dataset, test_dataset = DATASET_GETTERS[args.dataset](
         args, './data')
     elif(args.dataset == 'classaudio'):
